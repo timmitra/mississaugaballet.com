@@ -1,0 +1,109 @@
+@charset "UTF-8";
+#heading {
+	text-align: center;
+	line-height: normal;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+footer {
+	font-size: small;
+	text-align: center;
+}
+#student, #mother, #father, #emergency, #pickup, #siblings, #contact_preferences, #marketing, #preferred_classs, #donation {
+	border: 1px solid #09F;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#section_title {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: large;
+	padding: 5px;
+}
+
+fieldset {
+	margin-bottom: 10px;
+	width: 500px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.legend {
+	padding: 0px 2px;
+	padding-left: 2px;
+}
+label {
+	line-height: 1.8px;
+	vertical-align: bottom;
+	display: inline-block;
+	text-align: right;
+	padding-right: 5px;
+	width: 490px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+label input, label textarea, label input error {
+	border: 1px solid #06f;
+	background: white;
+	padding: 3px 4px;
+	color: #06F;
+	margin-left: 10px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+.link_error {
+	color: red;
+}
+#form-error {
+	border: 1px solid #f00;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	padding: 3px 10px;
+	background-color: #FF9;
+}
+fieldset ul {
+	margin: 0px;
+	padding: 0px;
+}
+fieldset li {
+	padding: 5px;
+	list-style-type: none;
+	margin: 0px;
+}
+fieldset  fieldset {
+	margin: 3px 0 0;
+}
+input {
+	float: right;
+}
+textarea {
+	float: right;
+}
+fieldset fieldset input {
+	clear: both;
+	float: none;
+}
+#preferred_class select .input{
+	text-align: left;
+	float: left;
+}
+#main section {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+}
+.anti-spam {
+	left: -9999px; 
+	position: absolute; 
+	top: -9999px;
+}
+.error { 
+	color: #f00; 
+}
+li .error { 
+	font-size: 12px; 
+	margin-left: 20px; 
+}
+
+input.input_error, .input_error {
+	background-color: #FF9;
+	border: 1px solid #f00;
+}
